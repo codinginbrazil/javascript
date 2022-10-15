@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://sswellington.github.io/haruno/static/css/new.min.css"/>
+        <link rel="stylesheet" href="https://sswellington.github.io/haruno/static/css/sarada.min.css"/>
+    </head>
+    <body>
+        <h2>JavaScript Statements</h2>
+
+        <p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
+
+        <p>A computer program is a list of "instructions" to be "executed" by a computer.
+
+            In a programming language, these programming instructions are called statements.
+            
+            A JavaScript program is a list of programming statements.
+        </p>
+
+        <button type="button" onclick="myFunction()">Click Me!</button>
+
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+
+        
+        <p id="demo"></p>
+        
+    </body>
+    <script>
+        /* JavaScript ignores multiple spaces. 
+        You can add white space to your script to make it more readable.
+        
+        Semicolons separate JavaScript statements.
+            Add a semicolon at the end of each executable statement: 
+        */
+        let x, y, z;  // Statement 1
+        x = 7;        // Statement 2
+        y = 6;        // Statement 3
+        z = x + y;    // Statement 4
+        
+        document.getElementById("demo").innerHTML ="The value of z is " + z + ".";  
+
+        function myFunction() {
+            document.getElementById("demo1").innerHTML = "Hello Dolly!";
+            document.getElementById("demo2").innerHTML = "What is the number?";
+        }
+    </script>
+</html>
