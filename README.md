@@ -5,11 +5,11 @@
 01. Where To 
 02. Output
 03. Statements
-04. Syntax
-05. Comments
-06. Variables
-07. Let
-08. Const
+04. [Syntax](https://www.w3schools.com/js/js_syntax.asp)
+05. [Comments](https://www.w3schools.com/js/js_comments.asp)
+06. [Variables](https://www.w3schools.com/js/js_variables.asp)
+07. [Let](https://www.w3schools.com/js/js_let.asp)
+08. [Const](https://www.w3schools.com/js/js_const.asp)
 09. Operators
 10. Arithmetic
 11. Assignment
